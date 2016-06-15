@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             
             if number != 2 && number != 1 {
                 
-                for var i = 2; i < number; i++ {
+                for var i = 2; i < number; i = i + 1 {
                     
                     if number % i == 0 {
                         
